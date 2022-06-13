@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+  width: 60%;
+}
+
+.card_container {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 45px;
+}
+
+
